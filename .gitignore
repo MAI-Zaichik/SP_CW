@@ -1,0 +1,41 @@
+# Build
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Compiled
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Debug
+*.pdb
+*.ilk
+*.dwo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+**/.DS_Store
+
+# Данные СУБД (генерируются в рантайме)
+data/
+catalog.json
+*.idx
+access.log
